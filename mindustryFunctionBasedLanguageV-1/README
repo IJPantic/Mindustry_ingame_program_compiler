@@ -1,0 +1,28 @@
+mindutry Function-based Langauge Compiler V-1
+13.March, 2025.
+by Ivan Jonjic Pantic (IJPantic on github)
+free use and edit for whatever you want
+
+Intructions for use:
+	1. run program
+	2. enter name of a file where will program write compiled mindustry code to
+	3. enter name of a file where is function-based code written
+	4. if successful, program will output 'DONE!' to a terminal (after that you can close program)
+
+Syntax rules for function-based language:
+	functionName(argument);
+	if function has multiple arguments:
+		functionName(argument0,argument1,argumentN);
+	function name can include every ascii character expect:
+		'(' (if possible dont use ')' either because it will be hard to read)
+		';'
+	name of arguments can inlude any ascii character expect:
+		','
+		')' (if possible dont use '(' either because it will be hard to read)
+		';'
+
+Rules and instructions for adding a new function for function-based langauge:
+	1. add your function name and it's lenght in 'instructionLenght' dictionary (name of function must not be any function that is built-in python, like 'print' for example)
+	2. add your new function to '#TODO: add your new functions here' section following rules as already included ones
+	3. save and exit file after adding new function and run program (test for errors first time)
+

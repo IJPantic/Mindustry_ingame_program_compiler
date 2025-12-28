@@ -1,0 +1,8 @@
+goto(point,condition); 		#jumps to a point in code if condition is met
+point(name);				#declares a point in code that doesn't depend on index of code line
+var(name,value);			#declares new variable and sets it to a value (or changes already existing one
+op(operation,a,b,result);	#does operation on 2 variables and saves it to a result variable
+input1b(a,switchName);		#inputs a state of a switch into a variable
+printf(a,messageName);		#prints 'a' to a selected message block 
+
+BTW: for 'condition' and 'operation' arguments use instructions that are already included in mindustry instruction set
