@@ -1,7 +1,6 @@
 #mindutry Function-based Langauge Compiler V-1
 #14.March, 2025.
 #by Ivan Jonjic Pantic (IJPantic on github)
-#free use and edit for whatever you want
 
 #inputs from user
 fileWrite=input('file that compiled code will save to(will write to): ')
